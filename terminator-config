@@ -1,17 +1,20 @@
 [global_config]
   window_state = maximise
   title_transmit_fg_color = "#e5e5e5"
-  title_transmit_bg_color = "#000000"
+  title_transmit_bg_color = "#242334"
   title_inactive_fg_color = "#e5e5e5"
   title_inactive_bg_color = "#adadad"
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#2c2c2c"
+    background_color = "#242334"
+    background_darkness = 0.92
+    background_type = transparent
     cursor_color = "#e5e5e5"
     foreground_color = "#e5e5e5"
     show_titlebar = False
-    palette = "#000000:#ff4b4a:#19cb00:#fffd6b:#a1a6c7:#fa6dff:#0dcdcd:#ededed:#adadad:#ff6f6d:#23ff00:#fffd1a:#bfc9ff:#fe85ff:#14ffff:#e7e7e7"
+    scrollback_lines = 2000
+    palette = "#242334:#ff7372:#a7ff70:#ffe874:#a1a6c7:#ab82ff:#6dfed0:#ededed:#adadad:#ff6f6d:#23ff00:#fffd1a:#bfc9ff:#fe85ff:#14ffff:#e7e7e7"
 [layouts]
   [[default]]
     [[[child1]]]
