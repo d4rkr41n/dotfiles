@@ -7,14 +7,17 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#242334"
+    background_color = "#29282f"
     background_darkness = 0.92
     background_type = transparent
     cursor_color = "#e5e5e5"
+    font = MesloLGS NF 10
     foreground_color = "#e5e5e5"
     show_titlebar = False
     scrollback_lines = 2000
-    palette = "#242334:#ff7372:#a7ff70:#ffe874:#a1a6c7:#ab82ff:#6dfed0:#ededed:#adadad:#ff6f6d:#23ff00:#fffd1a:#bfc9ff:#fe85ff:#14ffff:#e7e7e7"
+    palette = "#21222d:#ff5657:#4efb7b:#f1fb8d:#bc92f9:#fe79c7:#8ae8fd:#f9f9f2:#6372a5:#ff6e6d:#68ff94:#fefea5:#ff92df:#ff92df:#a3ffff:#fefeff"
+    use_system_font = False
+    copy_on_selection = True
 [layouts]
   [[default]]
     [[[child1]]]
