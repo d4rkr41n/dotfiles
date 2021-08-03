@@ -181,7 +181,7 @@ set tabstospaces
 
 ## Paint the interface elements of nano.
 ## These are examples; by default there are no colors.
- set titlecolor brightwhite,magenta
+ set titlecolor black,cyan
  set statuscolor black,cyan
 # set selectedcolor brightwhite,magenta
  set numbercolor cyan
