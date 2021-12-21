@@ -110,3 +110,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa_github"
+
+alias octal="stat -c '%a' $1"
+alias monview="mngr"
+alias control="ssh -X dsu@138.247.241.149 x2x -nomouse -to :0"
+alias py3="python3"
+
+smartresize() {
+   mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
+}

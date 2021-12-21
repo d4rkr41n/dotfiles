@@ -1,22 +1,26 @@
 [global_config]
+  handle_size = 1
+  geometry_hinting = True
   window_state = maximise
   title_transmit_fg_color = "#e5e5e5"
-  title_transmit_bg_color = "#242334"
+  title_transmit_bg_color = "#000000"
   title_inactive_fg_color = "#e5e5e5"
   title_inactive_bg_color = "#adadad"
 [keybindings]
+  zoom_normal = F1
 [profiles]
   [[default]]
-    background_color = "#29282f"
+    background_color = "#111111"
     background_darkness = 0.92
     background_type = transparent
-    cursor_color = "#e5e5e5"
+    cursor_color = "#e3bf21"
     font = MesloLGS NF 10
-    foreground_color = "#e5e5e5"
+    foreground_color = "#cacecd"
     show_titlebar = False
     scrollback_lines = 2000
-    palette = "#21222d:#ff5657:#4efb7b:#f1fb8d:#bc92f9:#fe79c7:#8ae8fd:#f9f9f2:#6372a5:#ff6e6d:#68ff94:#fefea5:#ff92df:#ff92df:#a3ffff:#fefeff"
+    palette = "#333333:#8c4665:#287373:#395573:#bc92f9:#5e468c:#31658c:#899ca1:#3d3d3d:#bf4d80:#53a6a6:#9e9ecb:#477ab3:#7e62b3:#6096bf:#c0c0c0"
     use_system_font = False
+    use_theme_colors = True
     copy_on_selection = True
 [layouts]
   [[default]]
