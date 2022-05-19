@@ -7,6 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/rain/.oh-my-zsh"
@@ -114,8 +115,8 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa_github"
 
 alias octal="stat -c '%a' $1"
 alias monview="mngr"
-alias control="ssh -X dsu@138.247.241.149 x2x -nomouse -to :0"
 alias py3="python3"
+alias pacman="sudo pacman"
 
 smartresize() {
    mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
